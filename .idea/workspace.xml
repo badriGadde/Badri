@@ -4,7 +4,26 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d5f8f4e-641a-40b8-b366-aaed73836902" name="Default Changelist" comment="" />
+    <list default="true" id="6d5f8f4e-641a-40b8-b366-aaed73836902" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/CompanionObject.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/CompanionObject.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/CurryingMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/CurryingMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/ExceptionMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/ExceptionMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/FactorialLoopMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/FactorialLoopMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/HighOrderMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/HighOrderMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/ImmutableCollectionMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/ImmutableCollectionMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/InputOutputMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/InputOutputMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/MagicApply.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/MagicApply.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/MultiInheritMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/MultiInheritMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/MultiInheritTrait.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/MultiInheritTrait.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/MutableCollectionMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/MutableCollectionMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/ObjectLevelInherit.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/ObjectLevelInherit.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/PartialFunctionMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/PartialFunctionMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/RecursiveMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/RecursiveMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/SingleInheritTrait.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/SingleInheritTrait.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/TempTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/TempTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/learning/TxCustmoerDataGrpMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/learning/TxCustmoerDataGrpMain.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +39,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1VQkh05bjJPa0bcCgRtNbhcu6bi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,7 +58,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.TxCustmerDataGrpMain">
+  <component name="RunManager" selected="Application.ExceptionMain">
     <configuration name="CollectionnMain" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.test.learning.CollectionnMain" />
       <module name="ScalaTest001" />
@@ -116,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TxCustmerDataGrpMain" />
         <item itemvalue="Application.ExceptionMain" />
+        <item itemvalue="Application.TxCustmerDataGrpMain" />
         <item itemvalue="Application.CurryingMain" />
         <item itemvalue="Application.PartialFunctionMain" />
         <item itemvalue="Application.RecursiveMain" />
@@ -154,6 +177,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="100" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1578537936132" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578623535777">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1578623535777" />
     <state x="446" y="40" key="#com.intellij.ide.util.MemberChooser" timestamp="1577325397432">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -170,22 +197,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578199234405" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578597895380">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578623608820">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578597895380" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578597895380">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578623608820" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578623608816">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578597895380" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578597895380">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578623608816" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578623608816">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578597895380" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578597895380">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578623608816" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578623608820">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578597895380" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578623608820" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1578540642599">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -210,10 +237,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="362" y="82" width="540" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1578597125238" />
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1578595082038">
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1578621490387">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578595082038" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578621490387" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1578108260490">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -228,7 +255,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/com/test/learning/CompanionObject.scala</url>
-          <line>17</line>
+          <line>19</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

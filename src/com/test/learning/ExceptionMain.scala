@@ -1,5 +1,8 @@
 package com.test.learning
 
+import scala.util.{Failure, Success, Try}
+import scala.io.Source
+
 object ExceptionMain {
   def main(args: Array[String]): Unit = {
     traditionalExceptionHandling()
@@ -31,19 +34,19 @@ object ExceptionMain {
     println("Using toInt with TryCatch Block Option: " + toIntTryCatchOption("10a").getOrElse("Wrong i/p"))
     println()
 
-    val result=divisionExpHandlingWithEither(10, 0)
-    val extracted= if (result.isLeft) result.left.get else result.right.get //2.13.0 we can directly use
-                                                                            // getOrElse,its right biased
+    val result = divisionExpHandlingWithEither(10, 0)
+    val extracted = if (result.isLeft) result.left.get else result.right.get //2.13.0 we can directly use
+    // getOrElse,its right biased
     println("Using division with Either: " + extracted)
     println()
 
     //or
 
-    println("Using division with Either 2.13: "+ result.swap.getOrElse() )
+    println("Using division with Either 2.13: " + result.swap.getOrElse())
     println()
 
     println("Using Match Case with Either:- ")
-    val resultMatch=divisionExpHandlingWithEither(10, 2)
+    val resultMatch = divisionExpHandlingWithEither(10, 2)
     resultMatch match {
       case Left(a) => println(a)
       case Right(b) => println(s"Result is $b")
@@ -53,6 +56,21 @@ object ExceptionMain {
     println("Using toInt with TryCatch Block Either: " + toIntTryCatchEither("10a"))
     println()
 
+    val rdFileWithTrySF = readFileUsingTrySuccessFailure("C:\\Drive-D\\IntelliJ_Workspace\\ScalaTest001" +
+      "\\resources\\sample.txt")
+    println("Reading Text File ,with Try SuccessFailure(Like Java throws): ")
+    rdFileWithTrySF match {
+      case Success(value) => println(s"Success Fully Read:- $value")
+      case Failure(exception) => println(s"Failed Reading File:- " + exception.getMessage)
+    }
+    println()
+
+  }
+
+  def readFileUsingTrySuccessFailure(filePth: String): Try[List[String]] = {
+    Try {
+      Source.fromFile(filePth).getLines().toList
+    }
   }
 
   def divisionExpHandlingWithEither(x: Int, y: Int): Either[String, Int] = {

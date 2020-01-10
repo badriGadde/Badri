@@ -14,11 +14,14 @@ import scala.io.Source
   912     ,3       ,208    ,200.00*/
 object TxCustmerDataGrpMain {
   def main(args: Array[String]): Unit = {
-    val fileRead=Source.fromFile("C:\\Drive-D\\IntelliJ_Workspace\\ScalaTest001" +
+    val fileRead = Source.fromFile("C:\\Drive-D\\IntelliJ_Workspace\\ScalaTest001" +
       "\\resources\\transactionData.csv")
-    val eachLineLst:List[String]=fileRead.getLines().toList
-    val listWithTplVal=eachLineLst.map(each=>{val splits=each.split(",");(splits(1).toInt,splits(3).toDouble)})
-    val consolidatedKeyValPair=listWithTplVal.groupMapReduce(_._1)(_._2)(_+_)
+    val eachLineLst: List[String] = fileRead.getLines().toList
+    val listWithTplVal = eachLineLst.map(each => {
+      val splits = each.split(",")
+      (splits(1).toInt, splits(3).toDouble)
+    })
+    val consolidatedKeyValPair = listWithTplVal.groupMapReduce(_._1)(_._2)(_ + _)
     println(consolidatedKeyValPair)
   }
 }
